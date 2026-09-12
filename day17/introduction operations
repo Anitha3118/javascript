@@ -1,0 +1,40 @@
+// task1. Declare variables using var, let, and const
+
+var student = "Anitha";
+let age = 22;
+const college = "MSEC";
+
+console.log(student);
+console.log(age);
+console.log(college);
+
+
+// task2. Create variables with string, number, boolean, null, undefined
+
+let studentName = "Anitha";   // String
+let marks = 80;                  // Number
+let isStudent = true;            // Boolean
+let address = null;              // Null
+let phoneNumber;                 // Undefined
+
+console.log(studentName);
+console.log(marks);
+console.log(isStudent);
+console.log(address);
+console.log(phoneNumber);
+
+
+// task3. Use +, -, *, /, %, ==, ===, &&, ||
+
+let a = 20;
+let b = 10;
+
+console.log("Addition =", a + b);
+console.log("Subtraction =", a - b);
+console.log("Multiplication =", a * b);
+console.log("Division =", a / b);
+console.log("Modulus =", a % b);
+console.log(a == b);
+console.log(a === b);
+console.log(a > 10 && b < 10);
+console.log(a > 10 || b > 10);
